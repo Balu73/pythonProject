@@ -1,0 +1,25 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Tabbedwindows                                                          
+==============================================================================
+TabbedWindowsTest                                                     Frames & windows
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Administrator\PycharmProjects\pythonProject\Testcases\Tabbedwindows.robot:6
+    T:  TabbedWindowsTest    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Administrator\PycharmProjects\pythonProject\Testcases\Tabbedwindows.robot:22
+      Log    
+______________________________________________________________________________
+| FAIL |
+Keyword 'BuiltIn.Log' expected 1 to 6 arguments, got 0.
+------------------------------------------------------------------------------
+Suites.Tabbedwindows                                                  | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\Administrator\PycharmProjects\pythonProject\Results\pabot_results\24\output.xml

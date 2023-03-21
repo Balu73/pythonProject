@@ -1,0 +1,14 @@
+[ ERROR ] Error in file 'C:\Users\Administrator\PycharmProjects\pythonProject\Testcases\Capturesreen.robot' on line 2: Importing library 'seleniumLibrary' failed: ModuleNotFoundError: No module named 'seleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\Administrator\PycharmProjects\pythonProject\venv\Scripts\robot.exe
+  C:\Users\Administrator\AppData\Local\Programs\Python\Python311\python311.zip
+  C:\Users\Administrator\AppData\Local\Programs\Python\Python311\DLLs
+  C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib
+  C:\Users\Administrator\AppData\Local\Programs\Python\Python311
+  C:\Users\Administrator\PycharmProjects\pythonProject\venv
+  C:\Users\Administrator\PycharmProjects\pythonProject\venv\Lib\site-packages
+  C:\Users\Administrator\PycharmProjects\pythonProject\venv\Lib\site-packages\win32
+  C:\Users\Administrator\PycharmProjects\pythonProject\venv\Lib\site-packages\win32\lib
+  C:\Users\Administrator\PycharmProjects\pythonProject\venv\Lib\site-packages\Pythonwin

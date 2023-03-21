@@ -1,0 +1,30 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Mousehandling                                                          
+==============================================================================
+open browser                                                            
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Administrator\PycharmProjects\pythonProject\Testcases\mousehandling.robot:5
+    T:  open browser    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Administrator\PycharmProjects\pythonProject\Testcases\mousehandling.robot:5
+      https://www.sugarcrm.com/au/request-demo/    Chrome
+______________________________________________________________________________
+| FAIL |
+No keyword with name 'https://www.sugarcrm.com/au/request-demo/' found.
+------------------------------------------------------------------------------
+maximize browser window                                               | FAIL |
+Test contains no keywords.
+------------------------------------------------------------------------------
+scroll element into view                                              | FAIL |
+Test contains no keywords.
+------------------------------------------------------------------------------
+Suites.Mousehandling                                                  | FAIL |
+3 tests, 0 passed, 3 failed
+==============================================================================
+Suites                                                                | FAIL |
+3 tests, 0 passed, 3 failed
+==============================================================================
+Output:  C:\Users\Administrator\PycharmProjects\pythonProject\Results\pabot_results\14\output.xml

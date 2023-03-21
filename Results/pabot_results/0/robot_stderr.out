@@ -1,0 +1,24 @@
+[ WARN ] Keyword 'Capture Page Screenshot' could not be run on failure: Alert Text: Press a button!
+Message: unexpected alert open: {Alert text : Press a button!}
+  (Session info: chrome=107.0.5304.107)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00A3ACD3+2075859]
+	Ordinal0 [0x009CEE61+1633889]
+	Ordinal0 [0x008CB7BD+571325]
+	Ordinal0 [0x0092B3B5+963509]
+	Ordinal0 [0x00917136+880950]
+	Ordinal0 [0x008EFEFD+720637]
+	Ordinal0 [0x008F0F3F+724799]
+	GetHandleVerifier [0x00CEEED2+2769538]
+	GetHandleVerifier [0x00CE0D95+2711877]
+	GetHandleVerifier [0x00ACA03A+521194]
+	GetHandleVerifier [0x00AC8DA0+516432]
+	Ordinal0 [0x009D682C+1665068]
+	Ordinal0 [0x009DB128+1683752]
+	Ordinal0 [0x009DB215+1683989]
+	Ordinal0 [0x009E6484+1729668]
+	BaseThreadInitThunk [0x767CFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77977A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77977A6E+238]
+

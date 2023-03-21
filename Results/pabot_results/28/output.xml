@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.11.0 on win32)" generated="20221111 21:42:37.545" rpa="false" schemaversion="3">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="TimeOutTest" source="C:\Users\Administrator\PycharmProjects\pythonProject\Testcases\TimeOutTest.robot">
+<test id="s1-s1-t1" name="RegTest" line="9">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${"url"}</arg>
+<arg>${"browser"}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221111 21:42:38.108" level="INFO">Opening browser 'Chrome' to base url 'https://demowebshop.tricentis.com/register'.</msg>
+<status status="PASS" starttime="20221111 21:42:38.107" endtime="20221111 21:42:51.437"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20221111 21:42:51.438" endtime="20221111 21:42:51.581"/>
+</kw>
+<kw name="Get Selenium Timeout" library="SeleniumLibrary">
+<var>${time}</var>
+<doc>Gets the timeout that is used by various keywords.</doc>
+<msg timestamp="20221111 21:42:51.581" level="INFO">${time} = 5 seconds</msg>
+<status status="PASS" starttime="20221111 21:42:51.581" endtime="20221111 21:42:51.581"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${time}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221111 21:42:51.581" endtime="20221111 21:42:51.581"/>
+</kw>
+<kw name="Set Selenium Timeout" library="SeleniumLibrary">
+<arg>10</arg>
+<doc>Sets the timeout that is used by various keywords.</doc>
+<status status="PASS" starttime="20221111 21:42:51.581" endtime="20221111 21:42:51.581"/>
+</kw>
+<kw name="Wait Until Page Contains" library="SeleniumLibrary">
+<arg>Register</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" starttime="20221111 21:42:51.581" endtime="20221111 21:42:51.597"/>
+</kw>
+<kw name="Select Radio Button" library="SeleniumLibrary">
+<arg>Gender</arg>
+<arg>M</arg>
+<doc>Sets the radio button group ``group_name`` to ``value``.</doc>
+<msg timestamp="20221111 21:42:51.612" level="INFO">Selecting 'M' from radio button 'Gender'.</msg>
+<status status="PASS" starttime="20221111 21:42:51.612" endtime="20221111 21:42:51.708"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id:FirstName</arg>
+<arg>Balakrishna</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221111 21:42:51.710" level="INFO">Typing text 'Balakrishna' into text field 'id:FirstName'.</msg>
+<status status="PASS" starttime="20221111 21:42:51.709" endtime="20221111 21:42:51.970"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id:LastName</arg>
+<arg>Bandari</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221111 21:42:51.973" level="INFO">Typing text 'Bandari' into text field 'id:LastName'.</msg>
+<status status="PASS" starttime="20221111 21:42:51.971" endtime="20221111 21:42:52.160"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:Email</arg>
+<arg>krishnabandari841@gmail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221111 21:42:52.161" level="INFO">Typing text 'krishnabandari841@gmail.com' into text field 'name:Email'.</msg>
+<status status="PASS" starttime="20221111 21:42:52.160" endtime="20221111 21:42:52.416"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id:Password</arg>
+<arg>Bala19966@</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221111 21:42:52.418" level="INFO">Typing text 'Bala19966@' into text field 'id:Password'.</msg>
+<status status="PASS" starttime="20221111 21:42:52.417" endtime="20221111 21:42:52.611"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id:ConfirmPassword</arg>
+<arg>Bala19966@</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221111 21:42:52.612" level="INFO">Typing text 'Bala19966@' into text field 'id:ConfirmPassword'.</msg>
+<status status="PASS" starttime="20221111 21:42:52.611" endtime="20221111 21:42:52.864"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>//input[@id="register-button"]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20221111 21:42:52.866" level="INFO">Clicking button '//input[@id="register-button"]'.</msg>
+<status status="PASS" starttime="20221111 21:42:52.864" endtime="20221111 21:42:56.125"/>
+</kw>
+<kw name="Get Selenium Timeout" library="SeleniumLibrary">
+<var>${time}</var>
+<doc>Gets the timeout that is used by various keywords.</doc>
+<msg timestamp="20221111 21:42:56.127" level="INFO">${time} = 10 seconds</msg>
+<status status="PASS" starttime="20221111 21:42:56.126" endtime="20221111 21:42:56.127"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${time}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221111 21:42:56.127" endtime="20221111 21:42:56.129"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20221111 21:42:56.129" endtime="20221111 21:42:59.854"/>
+</kw>
+<status status="PASS" starttime="20221111 21:42:38.106" endtime="20221111 21:42:59.855"/>
+</test>
+<status status="PASS" starttime="20221111 21:42:37.605" endtime="20221111 21:42:59.856"/>
+</suite>
+<status status="PASS" starttime="20221111 21:42:37.568" endtime="20221111 21:42:59.857"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Suites">Suites</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="TimeOutTest">Suites.TimeOutTest</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

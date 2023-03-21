@@ -1,0 +1,34 @@
+datasources:9c33e1c282d52e111fd7e9c4b705892bc5a6c6a6
+commandlineoptions:9f8598a690c7367accf83ead504756ddd374acc9
+suitesfrom:no-suites-from-option
+file:4946803d324794ee390de2e3930a1dc61c22d32e
+--suite Suites.Alerts
+--suite Suites.Capturesreen
+--suite Suites.CloseAll
+--suite Suites.DDT1
+--suite Suites.DDT2 CSV
+--suite Suites.DDT2 Excel
+--suite Suites.Dropdown
+--suite Suites.Flipkart
+--suite Suites.ForloopDemo
+--suite Suites.Frames
+--suite Suites.GetAllLinks
+--suite Suites.ImplicityTimeWait
+--suite Suites.Inputbox
+--suite Suites.LoginTest
+--suite Suites.Mousehandling
+--suite Suites.Mouseoperations
+--suite Suites.NavigationalCommand
+--suite Suites.Radiobutton
+--suite Suites.RegistrationTest
+--suite Suites.Sample
+--suite Suites.ScrollingPage
+--suite Suites.SetupAndTeardown
+--suite Suites.SpeedTest
+--suite Suites.SwitchToMultipleBrowsers
+--suite Suites.Tabbedwindows
+--suite Suites.TableDemo
+--suite Suites.Tagged
+--suite Suites.Tc1
+--suite Suites.TimeOutTest
+--suite Suites.Userkeywords

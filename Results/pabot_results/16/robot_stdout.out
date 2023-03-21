@@ -1,0 +1,17 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.NavigationalCommand                                                    
+==============================================================================
+NavigationTest                                                        https://www.google.com/
+https://www.bing.com/
+https://www.google.com/
+| PASS |
+------------------------------------------------------------------------------
+Suites.NavigationalCommand                                            | PASS |
+1 test, 1 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+1 test, 1 passed, 0 failed
+==============================================================================
+Output:  C:\Users\Administrator\PycharmProjects\pythonProject\Results\pabot_results\16\output.xml

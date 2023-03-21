@@ -1,0 +1,24 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Alerts                                                                 
+==============================================================================
+HandlingAlerts                                                          
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Administrator\PycharmProjects\pythonProject\Testcases\Alerts.robot:5
+    T:  HandlingAlerts    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Administrator\PycharmProjects\pythonProject\Testcases\Alerts.robot:14
+      Alert Should Not Be Present    Press a button!
+______________________________________________________________________________
+| FAIL |
+ValueError: Invalid alert action 'PRESS A BUTTON!'.
+------------------------------------------------------------------------------
+Suites.Alerts                                                         | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\Administrator\PycharmProjects\pythonProject\Results\pabot_results\0\output.xml

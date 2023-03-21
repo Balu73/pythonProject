@@ -1,0 +1,24 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Capturesreen                                                           
+==============================================================================
+LoginTC                                                                 
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Administrator\PycharmProjects\pythonProject\Testcases\Capturesreen.robot:9
+    T:  LoginTC    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Administrator\PycharmProjects\pythonProject\Testcases\Capturesreen.robot:10
+      open browser    https://www.flipkart.com/    Chrome
+______________________________________________________________________________
+| FAIL |
+No keyword with name 'open browser' found.
+------------------------------------------------------------------------------
+Suites.Capturesreen                                                   | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\Administrator\PycharmProjects\pythonProject\Results\pabot_results\1\output.xml

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.11.0 on win32)" generated="20221111 21:40:41.081" rpa="false" schemaversion="3">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="SpeedTest" source="C:\Users\Administrator\PycharmProjects\pythonProject\Testcases\SpeedTest.robot">
+<test id="s1-s1-t1" name="RegTest" line="9">
+<kw name="Get Selenium Speed" library="SeleniumLibrary">
+<var>${speed}</var>
+<doc>Gets the delay that is waited after each Selenium command.</doc>
+<msg timestamp="20221111 21:40:41.607" level="INFO">${speed} = 0 seconds</msg>
+<status status="PASS" starttime="20221111 21:40:41.605" endtime="20221111 21:40:41.607"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${speed}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221111 21:40:41.608" endtime="20221111 21:40:41.609"/>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${"url"}</arg>
+<arg>${"browser"}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221111 21:40:41.610" level="INFO">Opening browser 'Chrome' to base url 'https://demowebshop.tricentis.com/register'.</msg>
+<status status="PASS" starttime="20221111 21:40:41.609" endtime="20221111 21:40:53.622"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20221111 21:40:53.623" endtime="20221111 21:40:53.779"/>
+</kw>
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>2</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" starttime="20221111 21:40:53.779" endtime="20221111 21:40:53.780"/>
+</kw>
+<kw name="Select Radio Button" library="SeleniumLibrary">
+<arg>Gender</arg>
+<arg>M</arg>
+<doc>Sets the radio button group ``group_name`` to ``value``.</doc>
+<msg timestamp="20221111 21:40:53.780" level="INFO">Selecting 'M' from radio button 'Gender'.</msg>
+<status status="PASS" starttime="20221111 21:40:53.780" endtime="20221111 21:40:59.888"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id:FirstName</arg>
+<arg>Balakrishna</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221111 21:40:59.890" level="INFO">Typing text 'Balakrishna' into text field 'id:FirstName'.</msg>
+<status status="PASS" starttime="20221111 21:40:59.889" endtime="20221111 21:41:06.067"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id:LastName</arg>
+<arg>Bandari</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221111 21:41:06.068" level="INFO">Typing text 'Bandari' into text field 'id:LastName'.</msg>
+<status status="PASS" starttime="20221111 21:41:06.067" endtime="20221111 21:41:12.230"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:Email</arg>
+<arg>krishnabandari841@gmail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221111 21:41:12.231" level="INFO">Typing text 'krishnabandari841@gmail.com' into text field 'name:Email'.</msg>
+<status status="PASS" starttime="20221111 21:41:12.230" endtime="20221111 21:41:18.468"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id:Password</arg>
+<arg>Bala19966@</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221111 21:41:18.468" level="INFO">Typing text 'Bala19966@' into text field 'id:Password'.</msg>
+<status status="PASS" starttime="20221111 21:41:18.468" endtime="20221111 21:41:24.692"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id:ConfirmPassword</arg>
+<arg>Bala19966@</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221111 21:41:24.693" level="INFO">Typing text 'Bala19966@' into text field 'id:ConfirmPassword'.</msg>
+<status status="PASS" starttime="20221111 21:41:24.692" endtime="20221111 21:41:30.853"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>//input[@id="register-button"]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20221111 21:41:30.854" level="INFO">Clicking button '//input[@id="register-button"]'.</msg>
+<status status="PASS" starttime="20221111 21:41:30.853" endtime="20221111 21:41:38.989"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20221111 21:41:38.989" endtime="20221111 21:41:44.181"/>
+</kw>
+<kw name="Get Selenium Speed" library="SeleniumLibrary">
+<var>${speed}</var>
+<doc>Gets the delay that is waited after each Selenium command.</doc>
+<msg timestamp="20221111 21:41:44.182" level="INFO">${speed} = 2 seconds</msg>
+<status status="PASS" starttime="20221111 21:41:44.181" endtime="20221111 21:41:44.182"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${speed}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221111 21:41:44.182" endtime="20221111 21:41:44.183"/>
+</kw>
+<status status="PASS" starttime="20221111 21:40:41.604" endtime="20221111 21:41:44.183"/>
+</test>
+<status status="PASS" starttime="20221111 21:40:41.138" endtime="20221111 21:41:44.184"/>
+</suite>
+<status status="PASS" starttime="20221111 21:40:41.102" endtime="20221111 21:41:44.191"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Suites">Suites</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="SpeedTest">Suites.SpeedTest</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.11.0 on win32)" generated="20221111 21:39:30.364" rpa="false" schemaversion="3">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="RegistrationTest" source="C:\Users\Administrator\PycharmProjects\pythonProject\Testcases\RegistrationTest.robot">
+<test id="s1-s1-t1" name="Registration test" line="10">
+<kw name="Open My Browser" library="RegistrationKeywords">
+<arg>${SitUrl}</arg>
+<arg>${Browser}</arg>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${SiteUrl}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221111 21:39:30.999" level="INFO">Opening browser 'Chrome' to base url 'https://demo.guru99.com/test/newtours/index.php'.</msg>
+<status status="PASS" starttime="20221111 21:39:30.998" endtime="20221111 21:39:59.670"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20221111 21:39:59.671" endtime="20221111 21:39:59.843"/>
+</kw>
+<status status="PASS" starttime="20221111 21:39:30.997" endtime="20221111 21:39:59.844"/>
+</kw>
+<kw name="Click Registrastion Link" library="RegistrationKeywords">
+<kw name="Click Link" library="SeleniumLibrary">
+<arg>${link_Reg}</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<msg timestamp="20221111 21:39:59.851" level="INFO">Clicking link '//a[text()='REGISTER']'.</msg>
+<status status="PASS" starttime="20221111 21:39:59.849" endtime="20221111 21:40:09.141"/>
+</kw>
+<status status="PASS" starttime="20221111 21:39:59.846" endtime="20221111 21:40:09.142"/>
+</kw>
+<kw name="Enter Firstname" library="RegistrationKeywords">
+<arg>balakrishna</arg>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${txt_FirstName}</arg>
+<arg>${firstName}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221111 21:40:09.146" level="INFO">Typing text 'balakrishna' into text field 'name:firstName'.</msg>
+<status status="PASS" starttime="20221111 21:40:09.144" endtime="20221111 21:40:09.462"/>
+</kw>
+<status status="PASS" starttime="20221111 21:40:09.142" endtime="20221111 21:40:09.463"/>
+</kw>
+<kw name="Enter Lastname" library="RegistrationKeywords">
+<arg>bandari</arg>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${txt_LastName}</arg>
+<arg>${lastName}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221111 21:40:09.466" level="INFO">Typing text 'bandari' into text field 'name:lastName'.</msg>
+<status status="PASS" starttime="20221111 21:40:09.464" endtime="20221111 21:40:09.850"/>
+</kw>
+<status status="PASS" starttime="20221111 21:40:09.463" endtime="20221111 21:40:09.850"/>
+</kw>
+<kw name="Enter Phone" library="RegistrationKeywords">
+<arg>833186517</arg>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${txt_phone}</arg>
+<arg>${phone}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221111 21:40:09.853" level="INFO">Typing text '833186517' into text field 'name:phone'.</msg>
+<status status="PASS" starttime="20221111 21:40:09.851" endtime="20221111 21:40:10.157"/>
+</kw>
+<status status="PASS" starttime="20221111 21:40:09.850" endtime="20221111 21:40:10.157"/>
+</kw>
+<kw name="Enter Email" library="RegistrationKeywords">
+<arg>krishnabandari842@gmail.com</arg>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${txt_email}</arg>
+<arg>${email}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221111 21:40:10.162" level="INFO">Typing text 'krishnabandari842@gmail.com' into text field 'name:userName'.</msg>
+<status status="PASS" starttime="20221111 21:40:10.160" endtime="20221111 21:40:10.516"/>
+</kw>
+<status status="PASS" starttime="20221111 21:40:10.158" endtime="20221111 21:40:10.517"/>
+</kw>
+<kw name="Enter Address" library="RegistrationKeywords">
+<arg>Darsi</arg>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${txt_add1}</arg>
+<arg>${add1}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221111 21:40:10.521" level="INFO">Typing text 'Darsi' into text field 'name:address1'.</msg>
+<status status="PASS" starttime="20221111 21:40:10.518" endtime="20221111 21:40:10.795"/>
+</kw>
+<status status="PASS" starttime="20221111 21:40:10.517" endtime="20221111 21:40:10.796"/>
+</kw>
+<kw name="Enter City" library="RegistrationKeywords">
+<arg>Ongole</arg>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${txt_city}</arg>
+<arg>${city}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221111 21:40:10.801" level="INFO">Typing text 'Ongole' into text field 'name:city'.</msg>
+<status status="PASS" starttime="20221111 21:40:10.798" endtime="20221111 21:40:11.087"/>
+</kw>
+<status status="PASS" starttime="20221111 21:40:10.796" endtime="20221111 21:40:11.088"/>
+</kw>
+<kw name="Enter State" library="RegistrationKeywords">
+<arg>Ap</arg>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${txt_state}</arg>
+<arg>${state}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221111 21:40:11.093" level="INFO">Typing text 'Ap' into text field 'name:state'.</msg>
+<status status="PASS" starttime="20221111 21:40:11.091" endtime="20221111 21:40:11.340"/>
+</kw>
+<status status="PASS" starttime="20221111 21:40:11.089" endtime="20221111 21:40:11.341"/>
+</kw>
+<kw name="Enter Postal Code" library="RegistrationKeywords">
+<arg>503311</arg>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${txt_postcode}</arg>
+<arg>${postalcode}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221111 21:40:11.345" level="INFO">Typing text '503311' into text field 'name:postalCode'.</msg>
+<status status="PASS" starttime="20221111 21:40:11.343" endtime="20221111 21:40:11.784"/>
+</kw>
+<status status="PASS" starttime="20221111 21:40:11.342" endtime="20221111 21:40:11.785"/>
+</kw>
+<kw name="Select Country" library="RegistrationKeywords">
+<arg>INDIA</arg>
+<kw name="Select From List By Label" library="SeleniumLibrary">
+<arg>${drp_country}</arg>
+<arg>${country}</arg>
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<msg timestamp="20221111 21:40:11.789" level="INFO">Selecting options from selection list 'name:country' by label INDIA.</msg>
+<status status="PASS" starttime="20221111 21:40:11.787" endtime="20221111 21:40:12.148"/>
+</kw>
+<status status="PASS" starttime="20221111 21:40:11.786" endtime="20221111 21:40:12.149"/>
+</kw>
+<kw name="Enter User Name" library="RegistrationKeywords">
+<arg>Bala53</arg>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${txt_UserName}</arg>
+<arg>${username}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221111 21:40:12.153" level="INFO">Typing text 'Bala53' into text field 'id:email'.</msg>
+<status status="PASS" starttime="20221111 21:40:12.151" endtime="20221111 21:40:12.419"/>
+</kw>
+<status status="PASS" starttime="20221111 21:40:12.149" endtime="20221111 21:40:12.420"/>
+</kw>
+<kw name="Enter Password" library="RegistrationKeywords">
+<arg>bala123</arg>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${txt_Password}</arg>
+<arg>${password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221111 21:40:12.424" level="INFO">Typing text 'bala123' into text field 'name:password'.</msg>
+<status status="PASS" starttime="20221111 21:40:12.422" endtime="20221111 21:40:12.715"/>
+</kw>
+<status status="PASS" starttime="20221111 21:40:12.420" endtime="20221111 21:40:12.716"/>
+</kw>
+<kw name="Enter Confirmed Password" library="RegistrationKeywords">
+<arg>bala123</arg>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${txt_confirmedPassword}</arg>
+<arg>${password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221111 21:40:12.720" level="INFO">Typing text 'bala123' into text field 'name:confirmPassword'.</msg>
+<status status="PASS" starttime="20221111 21:40:12.718" endtime="20221111 21:40:13.025"/>
+</kw>
+<status status="PASS" starttime="20221111 21:40:12.716" endtime="20221111 21:40:13.026"/>
+</kw>
+<kw name="Click Submit" library="RegistrationKeywords">
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>${btn_submit}</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20221111 21:40:13.029" level="INFO">Clicking button '//input[@name='submit']'.</msg>
+<status status="PASS" starttime="20221111 21:40:13.027" endtime="20221111 21:40:31.811"/>
+</kw>
+<status status="PASS" starttime="20221111 21:40:13.026" endtime="20221111 21:40:31.812"/>
+</kw>
+<kw name="verify Succesful Registration" library="RegistrationKeywords">
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<arg>Thank you for registering</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<msg timestamp="20221111 21:40:31.857" level="INFO">Current page contains text 'Thank you for registering'.</msg>
+<status status="PASS" starttime="20221111 21:40:31.814" endtime="20221111 21:40:31.857"/>
+</kw>
+<status status="PASS" starttime="20221111 21:40:31.813" endtime="20221111 21:40:31.858"/>
+</kw>
+<kw name="Close my browser" library="RegistrationKeywords">
+<kw name="Close All Browsers" library="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" starttime="20221111 21:40:31.858" endtime="20221111 21:40:38.426"/>
+</kw>
+<status status="PASS" starttime="20221111 21:40:31.858" endtime="20221111 21:40:38.427"/>
+</kw>
+<status status="PASS" starttime="20221111 21:39:30.996" endtime="20221111 21:40:38.427"/>
+</test>
+<status status="PASS" starttime="20221111 21:39:30.424" endtime="20221111 21:40:38.428"/>
+</suite>
+<status status="PASS" starttime="20221111 21:39:30.386" endtime="20221111 21:40:38.430"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Suites">Suites</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="RegistrationTest">Suites.RegistrationTest</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

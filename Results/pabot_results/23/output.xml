@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.11.0 on win32)" generated="20221111 21:41:37.527" rpa="false" schemaversion="3">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="SwitchToMultipleBrowsers" source="C:\Users\Administrator\PycharmProjects\pythonProject\Testcases\SwitchToMultipleBrowsers.robot">
+<test id="s1-s1-t1" name="MultipelBrowserTest" line="6">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://www.google.com/</arg>
+<arg>Chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221111 21:41:38.083" level="INFO">Opening browser 'Chrome' to base url 'https://www.google.com/'.</msg>
+<status status="PASS" starttime="20221111 21:41:38.082" endtime="20221111 21:41:45.897"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20221111 21:41:45.898" endtime="20221111 21:41:46.028"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221111 21:41:48.029" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20221111 21:41:46.028" endtime="20221111 21:41:48.029"/>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://www.bing.com/</arg>
+<arg>Chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221111 21:41:48.029" level="INFO">Opening browser 'Chrome' to base url 'https://www.bing.com/'.</msg>
+<status status="PASS" starttime="20221111 21:41:48.029" endtime="20221111 21:41:54.800"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20221111 21:41:54.801" endtime="20221111 21:41:54.943"/>
+</kw>
+<kw name="Switch Browser" library="SeleniumLibrary">
+<arg>1</arg>
+<doc>Switches between active browsers using ``index_or_alias``.</doc>
+<status status="PASS" starttime="20221111 21:41:54.943" endtime="20221111 21:41:54.944"/>
+</kw>
+<kw name="Get Title" library="SeleniumLibrary">
+<var>${title1}</var>
+<doc>Returns the title of the current page.</doc>
+<msg timestamp="20221111 21:41:54.952" level="INFO">${title1} = Google</msg>
+<status status="PASS" starttime="20221111 21:41:54.944" endtime="20221111 21:41:54.952"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${title1}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221111 21:41:54.953" endtime="20221111 21:41:54.955"/>
+</kw>
+<kw name="Switch Browser" library="SeleniumLibrary">
+<arg>2</arg>
+<doc>Switches between active browsers using ``index_or_alias``.</doc>
+<status status="PASS" starttime="20221111 21:41:54.958" endtime="20221111 21:41:54.959"/>
+</kw>
+<kw name="Get Title" library="SeleniumLibrary">
+<var>${title2}</var>
+<doc>Returns the title of the current page.</doc>
+<msg timestamp="20221111 21:41:54.966" level="INFO">${title2} = Bing</msg>
+<status status="PASS" starttime="20221111 21:41:54.960" endtime="20221111 21:41:54.967"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${title2}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221111 21:41:54.967" endtime="20221111 21:41:54.969"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221111 21:41:57.972" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20221111 21:41:54.969" endtime="20221111 21:41:57.972"/>
+</kw>
+<kw name="Close All Browsers" library="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" starttime="20221111 21:41:57.973" endtime="20221111 21:42:10.850"/>
+</kw>
+<status status="PASS" starttime="20221111 21:41:38.081" endtime="20221111 21:42:10.850"/>
+</test>
+<status status="PASS" starttime="20221111 21:41:37.581" endtime="20221111 21:42:10.851"/>
+</suite>
+<status status="PASS" starttime="20221111 21:41:37.550" endtime="20221111 21:42:10.852"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Suites">Suites</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="SwitchToMultipleBrowsers">Suites.SwitchToMultipleBrowsers</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

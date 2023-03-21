@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.11.0 on win32)" generated="20221111 21:38:35.825" rpa="false" schemaversion="3">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Mouseoperations" source="C:\Users\Administrator\PycharmProjects\pythonProject\Testcases\Mouseoperations.robot">
+<test id="s1-s1-t1" name="MouseActions" line="6">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://swisnl.github.io/jQuery-contextMenu/demo.html</arg>
+<arg>Chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221111 21:38:36.400" level="INFO">Opening browser 'Chrome' to base url 'https://swisnl.github.io/jQuery-contextMenu/demo.html'.</msg>
+<status status="PASS" starttime="20221111 21:38:36.397" endtime="20221111 21:38:43.876"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20221111 21:38:43.877" endtime="20221111 21:38:44.012"/>
+</kw>
+<kw name="Open Context Menu" library="SeleniumLibrary">
+<arg>//span[text()="right click me"]</arg>
+<doc>Opens the context menu on the element identified by ``locator``.</doc>
+<status status="PASS" starttime="20221111 21:38:44.012" endtime="20221111 21:38:44.360"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221111 21:38:47.363" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20221111 21:38:44.360" endtime="20221111 21:38:47.363"/>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<arg>https://testautomationpractice.blogspot.com</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<msg timestamp="20221111 21:38:47.363" level="INFO">Opening url 'https://testautomationpractice.blogspot.com'</msg>
+<status status="PASS" starttime="20221111 21:38:47.363" endtime="20221111 21:38:58.051"/>
+</kw>
+<kw name="Double Click Element" library="SeleniumLibrary">
+<arg>//button[text()="Copy Text"]</arg>
+<doc>Double clicks the element identified by ``locator``.</doc>
+<msg timestamp="20221111 21:38:58.053" level="INFO">Double clicking element '//button[text()="Copy Text"]'.</msg>
+<status status="PASS" starttime="20221111 21:38:58.051" endtime="20221111 21:38:58.367"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221111 21:39:01.370" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20221111 21:38:58.367" endtime="20221111 21:39:01.370"/>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<arg>http://www.dhtmlgoodies.com/scripts/drag-drop-custom/demo-drag-drop-3.html</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<msg timestamp="20221111 21:39:01.371" level="INFO">Opening url 'http://www.dhtmlgoodies.com/scripts/drag-drop-custom/demo-drag-drop-3.html'</msg>
+<status status="PASS" starttime="20221111 21:39:01.370" endtime="20221111 21:39:08.244"/>
+</kw>
+<kw name="Drag And Drop" library="SeleniumLibrary">
+<arg>id:box3</arg>
+<arg>id:box103</arg>
+<doc>Drags the element identified by ``locator`` into the ``target`` element.</doc>
+<status status="PASS" starttime="20221111 21:39:08.244" endtime="20221111 21:39:08.857"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221111 21:39:11.859" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20221111 21:39:08.857" endtime="20221111 21:39:11.859"/>
+</kw>
+<kw name="Go Back" library="SeleniumLibrary">
+<doc>Simulates the user clicking the back button on their browser.</doc>
+<status status="PASS" starttime="20221111 21:39:11.859" endtime="20221111 21:39:16.651"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221111 21:39:19.653" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20221111 21:39:16.651" endtime="20221111 21:39:19.653"/>
+</kw>
+<kw name="Go Back" library="SeleniumLibrary">
+<doc>Simulates the user clicking the back button on their browser.</doc>
+<status status="PASS" starttime="20221111 21:39:19.653" endtime="20221111 21:39:19.736"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221111 21:39:22.738" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20221111 21:39:19.737" endtime="20221111 21:39:22.738"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20221111 21:39:22.738" endtime="20221111 21:39:25.253"/>
+</kw>
+<status status="PASS" starttime="20221111 21:38:36.396" endtime="20221111 21:39:25.254"/>
+</test>
+<status status="PASS" starttime="20221111 21:38:35.885" endtime="20221111 21:39:25.256"/>
+</suite>
+<status status="PASS" starttime="20221111 21:38:35.845" endtime="20221111 21:39:25.260"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Suites">Suites</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Mouseoperations">Suites.Mouseoperations</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

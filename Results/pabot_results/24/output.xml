@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.11.0 on win32)" generated="20221111 21:41:50.295" rpa="false" schemaversion="3">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Tabbedwindows" source="C:\Users\Administrator\PycharmProjects\pythonProject\Testcases\Tabbedwindows.robot">
+<test id="s1-s1-t1" name="TabbedWindowsTest" line="6">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://demo.automationtesting.in/Windows.html</arg>
+<arg>Chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221111 21:41:51.257" level="INFO">Opening browser 'Chrome' to base url 'https://demo.automationtesting.in/Windows.html'.</msg>
+<status status="PASS" starttime="20221111 21:41:51.256" endtime="20221111 21:42:03.224"/>
+</kw>
+<kw name="Get Title" library="SeleniumLibrary">
+<var>${name}</var>
+<doc>Returns the title of the current page.</doc>
+<msg timestamp="20221111 21:42:03.269" level="INFO">${name} = Frames &amp; windows</msg>
+<status status="PASS" starttime="20221111 21:42:03.225" endtime="20221111 21:42:03.269"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${name}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221111 21:42:03.269" endtime="20221111 21:42:03.270"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20221111 21:42:03.270" endtime="20221111 21:42:03.404"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>//*[@id="Tabbed"]/a/button</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20221111 21:42:03.404" endtime="20221111 21:42:03.450"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="Tabbed"]/a/button</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221111 21:42:03.450" level="INFO">Clicking element '//*[@id="Tabbed"]/a/button'.</msg>
+<status status="PASS" starttime="20221111 21:42:03.450" endtime="20221111 21:42:03.597"/>
+</kw>
+<kw name="Switch Window" library="SeleniumLibrary">
+<arg>Selenium</arg>
+<doc>Switches to browser window matching ``locator``.</doc>
+<status status="PASS" starttime="20221111 21:42:03.597" endtime="20221111 21:42:20.283"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>//*[text()='About']</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20221111 21:42:20.285" endtime="20221111 21:42:20.327"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[text()='About']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221111 21:42:20.329" level="INFO">Clicking element '//*[text()='About']'.</msg>
+<status status="PASS" starttime="20221111 21:42:20.328" endtime="20221111 21:42:20.405"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>//*[text()='History']</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20221111 21:42:20.405" endtime="20221111 21:42:20.464"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[text()='History']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221111 21:42:20.466" level="INFO">Clicking element '//*[text()='History']'.</msg>
+<status status="PASS" starttime="20221111 21:42:20.464" endtime="20221111 21:42:22.746"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221111 21:42:25.748" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20221111 21:42:22.747" endtime="20221111 21:42:25.748"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20221111 21:42:25.748" level="FAIL">Keyword 'BuiltIn.Log' expected 1 to 6 arguments, got 0.</msg>
+<status status="FAIL" starttime="20221111 21:42:25.748" endtime="20221111 21:42:25.748"/>
+</kw>
+<kw name="Go Back" library="SeleniumLibrary">
+<doc>Simulates the user clicking the back button on their browser.</doc>
+<status status="NOT RUN" starttime="20221111 21:42:25.748" endtime="20221111 21:42:25.748"/>
+</kw>
+<status status="FAIL" starttime="20221111 21:41:51.254" endtime="20221111 21:42:25.748">Keyword 'BuiltIn.Log' expected 1 to 6 arguments, got 0.</status>
+</test>
+<status status="FAIL" starttime="20221111 21:41:50.433" endtime="20221111 21:42:25.752"/>
+</suite>
+<status status="FAIL" starttime="20221111 21:41:50.328" endtime="20221111 21:42:25.752"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Suites">Suites</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Tabbedwindows">Suites.Tabbedwindows</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

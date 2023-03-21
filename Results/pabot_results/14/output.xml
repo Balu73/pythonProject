@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.11.0 on win32)" generated="20221111 21:38:34.305" rpa="false" schemaversion="3">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Mousehandling" source="C:\Users\Administrator\PycharmProjects\pythonProject\Testcases\mousehandling.robot">
+<test id="s1-s1-t1" name="open browser" line="5">
+<kw name="https://www.sugarcrm.com/au/request-demo/">
+<arg>Chrome</arg>
+<msg timestamp="20221111 21:38:34.827" level="FAIL">No keyword with name 'https://www.sugarcrm.com/au/request-demo/' found.</msg>
+<status status="FAIL" starttime="20221111 21:38:34.827" endtime="20221111 21:38:34.827"/>
+</kw>
+<status status="FAIL" starttime="20221111 21:38:34.820" endtime="20221111 21:38:34.828">No keyword with name 'https://www.sugarcrm.com/au/request-demo/' found.</status>
+</test>
+<test id="s1-s1-t2" name="maximize browser window" line="6">
+<status status="FAIL" starttime="20221111 21:38:34.829" endtime="20221111 21:38:34.830">Test contains no keywords.</status>
+</test>
+<test id="s1-s1-t3" name="scroll element into view" line="8">
+<status status="FAIL" starttime="20221111 21:38:34.830" endtime="20221111 21:38:34.831">Test contains no keywords.</status>
+</test>
+<status status="FAIL" starttime="20221111 21:38:34.363" endtime="20221111 21:38:34.832"/>
+</suite>
+<status status="FAIL" starttime="20221111 21:38:34.325" endtime="20221111 21:38:34.836"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="3" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="3" skip="0" id="s1" name="Suites">Suites</stat>
+<stat pass="0" fail="3" skip="0" id="s1-s1" name="Mousehandling">Suites.Mousehandling</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

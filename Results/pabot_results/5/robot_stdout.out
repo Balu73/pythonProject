@@ -1,0 +1,18 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.DDT2 Excel                                                             
+==============================================================================
+LoginTestwithExcel using admin1@yourstore.com and adm                 | PASS |
+------------------------------------------------------------------------------
+LoginTestwithExcel using admin2@yourstore.com and admin               | PASS |
+------------------------------------------------------------------------------
+LoginTestwithExcel using admin3@yourstore.com and adm                 | PASS |
+------------------------------------------------------------------------------
+Suites.DDT2 Excel                                                     | PASS |
+3 tests, 3 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+3 tests, 3 passed, 0 failed
+==============================================================================
+Output:  C:\Users\Administrator\PycharmProjects\pythonProject\Results\pabot_results\5\output.xml

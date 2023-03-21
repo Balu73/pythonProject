@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.11.0 on win32)" generated="20221111 21:36:14.255" rpa="false" schemaversion="3">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Dropdown" source="C:\Users\Administrator\PycharmProjects\pythonProject\Testcases\Dropdown.robot">
+<test id="s1-s1-t1" name="Handling Dropdowns and lists" line="9">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221111 21:36:14.756" level="INFO">Opening browser 'Chrome' to base url 'https://www.techlistic.com/p/selenium-practice-form.html'.</msg>
+<status status="PASS" starttime="20221111 21:36:14.756" endtime="20221111 21:36:47.904"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20221111 21:36:47.905" endtime="20221111 21:36:48.212"/>
+</kw>
+<kw name="Select From List By Label" library="SeleniumLibrary">
+<arg>continents</arg>
+<arg>Asia</arg>
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<msg timestamp="20221111 21:36:48.215" level="INFO">Selecting options from selection list 'continents' by label Asia.</msg>
+<status status="PASS" starttime="20221111 21:36:48.213" endtime="20221111 21:36:48.387"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221111 21:36:53.388" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20221111 21:36:48.387" endtime="20221111 21:36:53.388"/>
+</kw>
+<kw name="Select From List By Index" library="SeleniumLibrary">
+<arg>continents</arg>
+<arg>3</arg>
+<doc>Selects options from selection list ``locator`` by ``indexes``.</doc>
+<msg timestamp="20221111 21:36:53.393" level="INFO">Selecting options from selection list 'continents' by index 3.</msg>
+<status status="PASS" starttime="20221111 21:36:53.390" endtime="20221111 21:36:54.050"/>
+</kw>
+<kw name="Select From List By Label" library="SeleniumLibrary">
+<arg>selenium_commands</arg>
+<arg>Wait Commands</arg>
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<msg timestamp="20221111 21:36:54.053" level="INFO">Selecting options from selection list 'selenium_commands' by label Wait Commands.</msg>
+<status status="PASS" starttime="20221111 21:36:54.051" endtime="20221111 21:36:55.566"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221111 21:36:58.570" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20221111 21:36:55.567" endtime="20221111 21:36:58.570"/>
+</kw>
+<kw name="Select From List By Label" library="SeleniumLibrary">
+<arg>selenium_commands</arg>
+<arg>WebElement Commands</arg>
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<msg timestamp="20221111 21:36:58.572" level="INFO">Selecting options from selection list 'selenium_commands' by label WebElement Commands.</msg>
+<status status="PASS" starttime="20221111 21:36:58.571" endtime="20221111 21:36:58.719"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221111 21:37:01.719" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20221111 21:36:58.719" endtime="20221111 21:37:01.719"/>
+</kw>
+<kw name="Unselect From List By Label" library="SeleniumLibrary">
+<arg>selenium_commands</arg>
+<arg>Wait Commands</arg>
+<doc>Unselects options from selection list ``locator`` by ``labels``.</doc>
+<msg timestamp="20221111 21:37:01.721" level="INFO">Un-selecting options from selection list 'selenium_commands' by label Wait Commands.</msg>
+<status status="PASS" starttime="20221111 21:37:01.719" endtime="20221111 21:37:02.386"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221111 21:37:06.389" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221111 21:37:02.386" endtime="20221111 21:37:06.391"/>
+</kw>
+<kw name="Unselect From List By Label" library="SeleniumLibrary">
+<arg>selenium_commands</arg>
+<arg>WebElement Commands</arg>
+<doc>Unselects options from selection list ``locator`` by ``labels``.</doc>
+<msg timestamp="20221111 21:37:06.395" level="INFO">Un-selecting options from selection list 'selenium_commands' by label WebElement Commands.</msg>
+<status status="PASS" starttime="20221111 21:37:06.392" endtime="20221111 21:37:06.568"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20221111 21:37:06.569" endtime="20221111 21:37:09.044"/>
+</kw>
+<status status="PASS" starttime="20221111 21:36:14.756" endtime="20221111 21:37:09.045"/>
+</test>
+<status status="PASS" starttime="20221111 21:36:14.324" endtime="20221111 21:37:09.046"/>
+</suite>
+<status status="PASS" starttime="20221111 21:36:14.286" endtime="20221111 21:37:09.048"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Suites">Suites</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Dropdown">Suites.Dropdown</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

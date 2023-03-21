@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.11.0 on win32)" generated="20221111 21:35:31.002" rpa="false" schemaversion="3">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Capturesreen" source="C:\Users\Administrator\PycharmProjects\pythonProject\Testcases\Capturesreen.robot">
+<test id="s1-s1-t1" name="LoginTC" line="9">
+<kw name="open browser">
+<arg>https://www.flipkart.com/</arg>
+<arg>Chrome</arg>
+<msg timestamp="20221111 21:35:31.088" level="FAIL">No keyword with name 'open browser' found.</msg>
+<status status="FAIL" starttime="20221111 21:35:31.088" endtime="20221111 21:35:31.088"/>
+</kw>
+<kw name="maximize browser window">
+<status status="NOT RUN" starttime="20221111 21:35:31.088" endtime="20221111 21:35:31.088"/>
+</kw>
+<kw name="click link">
+<arg>//a[text()="Login"]</arg>
+<status status="NOT RUN" starttime="20221111 21:35:31.088" endtime="20221111 21:35:31.088"/>
+</kw>
+<kw name="input text">
+<arg>//div[@class="IiD88i _351hSN"]//input[@type="text"]</arg>
+<arg>Adimin</arg>
+<status status="NOT RUN" starttime="20221111 21:35:31.088" endtime="20221111 21:35:31.088"/>
+</kw>
+<kw name="input text">
+<arg>//div[@class="IiD88i _351hSN"]//input[@type="password"]</arg>
+<arg>adimin123</arg>
+<status status="NOT RUN" starttime="20221111 21:35:31.088" endtime="20221111 21:35:31.103"/>
+</kw>
+<kw name="capture element screenshot">
+<arg>//img[@class="_2xm1JU"]</arg>
+<arg>logo.png</arg>
+<status status="NOT RUN" starttime="20221111 21:35:31.103" endtime="20221111 21:35:31.103"/>
+</kw>
+<kw name="capture page screenshot">
+<arg>loginTC.png</arg>
+<status status="NOT RUN" starttime="20221111 21:35:31.103" endtime="20221111 21:35:31.103"/>
+</kw>
+<status status="FAIL" starttime="20221111 21:35:31.088" endtime="20221111 21:35:31.103">No keyword with name 'open browser' found.</status>
+</test>
+<status status="FAIL" starttime="20221111 21:35:31.064" endtime="20221111 21:35:31.103"/>
+</suite>
+<status status="FAIL" starttime="20221111 21:35:31.033" endtime="20221111 21:35:31.103"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Suites">Suites</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Capturesreen">Suites.Capturesreen</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20221111 21:35:31.081" level="ERROR">Error in file 'C:\Users\Administrator\PycharmProjects\pythonProject\Testcases\Capturesreen.robot' on line 2: Importing library 'seleniumLibrary' failed: ModuleNotFoundError: No module named 'seleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\Administrator\PycharmProjects\pythonProject\venv\Scripts\robot.exe
+  C:\Users\Administrator\AppData\Local\Programs\Python\Python311\python311.zip
+  C:\Users\Administrator\AppData\Local\Programs\Python\Python311\DLLs
+  C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib
+  C:\Users\Administrator\AppData\Local\Programs\Python\Python311
+  C:\Users\Administrator\PycharmProjects\pythonProject\venv
+  C:\Users\Administrator\PycharmProjects\pythonProject\venv\Lib\site-packages
+  C:\Users\Administrator\PycharmProjects\pythonProject\venv\Lib\site-packages\win32
+  C:\Users\Administrator\PycharmProjects\pythonProject\venv\Lib\site-packages\win32\lib
+  C:\Users\Administrator\PycharmProjects\pythonProject\venv\Lib\site-packages\Pythonwin</msg>
+</errors>
+</robot>

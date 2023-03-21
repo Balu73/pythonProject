@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.11.0 on win32)" generated="20221111 21:42:52.929" rpa="false" schemaversion="3">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Userkeywords" source="C:\Users\Administrator\PycharmProjects\pythonProject\Testcases\Userkeywords.robot">
+<test id="s1-s1-t1" name="TC1" line="10">
+<kw name="lanchBrowser" library="resource">
+<var>${PageTitle}</var>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${appurl}</arg>
+<arg>${appbrowser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221111 21:42:54.088" level="INFO">Opening browser 'Chrome' to base url 'https://demo.guru99.com/test/newtours/'.</msg>
+<status status="PASS" starttime="20221111 21:42:54.087" endtime="20221111 21:43:43.219"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20221111 21:43:43.219" endtime="20221111 21:43:43.349"/>
+</kw>
+<kw name="Get Title" library="SeleniumLibrary">
+<var>${title}</var>
+<doc>Returns the title of the current page.</doc>
+<msg timestamp="20221111 21:43:43.363" level="INFO">${title} = Welcome: Mercury Tours</msg>
+<status status="PASS" starttime="20221111 21:43:43.349" endtime="20221111 21:43:43.363"/>
+</kw>
+<msg timestamp="20221111 21:43:43.363" level="INFO">${PageTitle} = Welcome: Mercury Tours</msg>
+<status status="PASS" starttime="20221111 21:42:54.086" endtime="20221111 21:43:43.363"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${PageTitle}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221111 21:43:43.364" endtime="20221111 21:43:43.366"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>${PageTitle}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20221111 21:43:43.368" level="INFO">Welcome: Mercury Tours</msg>
+<status status="PASS" starttime="20221111 21:43:43.367" endtime="20221111 21:43:43.369"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:userName</arg>
+<arg>mercury</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221111 21:43:43.370" level="INFO">Typing text 'mercury' into text field 'name:userName'.</msg>
+<status status="PASS" starttime="20221111 21:43:43.369" endtime="20221111 21:43:43.577"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:password</arg>
+<arg>mercury</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221111 21:43:43.579" level="INFO">Typing text 'mercury' into text field 'name:password'.</msg>
+<status status="PASS" starttime="20221111 21:43:43.577" endtime="20221111 21:43:43.909"/>
+</kw>
+<status status="PASS" starttime="20221111 21:42:54.085" endtime="20221111 21:43:43.910"/>
+</test>
+<status status="PASS" starttime="20221111 21:42:53.044" endtime="20221111 21:43:43.912"/>
+</suite>
+<status status="PASS" starttime="20221111 21:42:52.961" endtime="20221111 21:43:43.915"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Suites">Suites</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Userkeywords">Suites.Userkeywords</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

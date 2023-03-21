@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.11.0 on win32)" generated="20221111 21:36:44.686" rpa="false" schemaversion="3">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Flipkart" source="C:\Users\Administrator\PycharmProjects\pythonProject\Testcases\flipkart.robot">
+<test id="s1-s1-t1" name="login_flikart" line="6">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://www.flipkart.com/</arg>
+<arg>Chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221111 21:36:45.549" level="INFO">Opening browser 'Chrome' to base url 'https://www.flipkart.com/'.</msg>
+<status status="PASS" starttime="20221111 21:36:45.548" endtime="20221111 21:37:34.683"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20221111 21:37:34.684" endtime="20221111 21:37:34.977"/>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<arg>//a[@class="_1_3w1N"]</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<msg timestamp="20221111 21:37:34.980" level="INFO">Clicking link '//a[@class="_1_3w1N"]'.</msg>
+<status status="PASS" starttime="20221111 21:37:34.978" endtime="20221111 21:37:35.296"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//div[@class="IiD88i _351hSN"]//input[@type="text"]</arg>
+<arg>8331865173</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221111 21:37:35.299" level="INFO">Typing text '8331865173' into text field '//div[@class="IiD88i _351hSN"]//input[@type="text"]'.</msg>
+<status status="PASS" starttime="20221111 21:37:35.296" endtime="20221111 21:37:35.657"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>8</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221111 21:37:43.659" level="INFO">Slept 8 seconds</msg>
+<status status="PASS" starttime="20221111 21:37:35.658" endtime="20221111 21:37:43.659"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//div[@class="IiD88i _351hSN"]//input[@type="password"]</arg>
+<arg>Bala3010@</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221111 21:37:43.659" level="INFO">Typing text 'Bala3010@' into text field '//div[@class="IiD88i _351hSN"]//input[@type="password"]'.</msg>
+<status status="PASS" starttime="20221111 21:37:43.659" endtime="20221111 21:37:43.902"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221111 21:37:48.904" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20221111 21:37:43.903" endtime="20221111 21:37:48.904"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>//button[@class="_2KpZ6l _2HKlqd _3AWRsL"]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20221111 21:37:48.904" level="INFO">Clicking button '//button[@class="_2KpZ6l _2HKlqd _3AWRsL"]'.</msg>
+<status status="PASS" starttime="20221111 21:37:48.904" endtime="20221111 21:37:49.050"/>
+</kw>
+<status status="PASS" starttime="20221111 21:36:45.547" endtime="20221111 21:37:49.051"/>
+</test>
+<status status="PASS" starttime="20221111 21:36:44.789" endtime="20221111 21:37:49.054"/>
+</suite>
+<status status="PASS" starttime="20221111 21:36:44.748" endtime="20221111 21:37:49.058"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Suites">Suites</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Flipkart">Suites.Flipkart</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

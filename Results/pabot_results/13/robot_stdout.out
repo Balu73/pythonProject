@@ -1,0 +1,25 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.LoginTest                                                              
+==============================================================================
+LoginTest                                                               
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Administrator\PycharmProjects\pythonProject\Testcases\LoginTest.robot:12
+    T:  LoginTest    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Administrator\PycharmProjects\pythonProject\Testcases\LoginTest.robot:18
+      Click SignIn    ${btn_signIn}
+      |  ${btn_signIn} = //input[@name='submit'] (str)
+______________________________________________________________________________
+| FAIL |
+Keyword 'LoginKeywords.Click SignIn' expected 0 arguments, got 1.
+------------------------------------------------------------------------------
+Suites.LoginTest                                                      | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\Administrator\PycharmProjects\pythonProject\Results\pabot_results\13\output.xml

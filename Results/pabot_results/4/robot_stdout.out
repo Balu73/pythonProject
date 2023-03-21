@@ -1,0 +1,18 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.DDT2 CSV                                                               
+==============================================================================
+LoginTestwithCSV using admin1@yourstore.com and adm1                  | PASS |
+------------------------------------------------------------------------------
+LoginTestwithCSV using admin2@yourstore.com and admin2                | PASS |
+------------------------------------------------------------------------------
+LoginTestwithCSV using admin3@yourstore.com and adm3                  | PASS |
+------------------------------------------------------------------------------
+Suites.DDT2 CSV                                                       | PASS |
+3 tests, 3 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+3 tests, 3 passed, 0 failed
+==============================================================================
+Output:  C:\Users\Administrator\PycharmProjects\pythonProject\Results\pabot_results\4\output.xml
